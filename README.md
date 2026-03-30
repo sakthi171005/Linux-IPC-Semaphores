@@ -25,6 +25,7 @@ Execute the C Program for the desired output.
 /*
  * sem.c - Producer-Consumer using Semaphores
  */
+ ```c
 #include <stdio.h>      
 #include <stdlib.h>     
 #include <unistd.h>     
@@ -118,20 +119,15 @@ int main() {
 
     return 0;
 }
-
+```
 
 
 ## OUTPUT
-
-$ ./sem.o
-
-![Alt text](<../Screenshot at 2026-03-16 15-27-26.png>)
+$ ./sem.o 
+<img width="850" height="685" alt="image" src="https://github.com/user-attachments/assets/ff0dbe1a-a474-4e5e-9447-166372a24eca" />
 
 $ ipcs
-
-![Alt text](<../Screenshot at 2026-03-16 15-27-58.png>)
-
-
+<img width="942" height="717" alt="image" src="https://github.com/user-attachments/assets/ab6cb5b1-9a2d-4a83-aaa0-f1b07e94e04f" />
 
 # RESULT:
 The program is executed successfully.
